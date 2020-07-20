@@ -12,3 +12,10 @@ var2.addEventListener('click',() => {
     localStorage.setItem('valueExtra',results);
     window.location.assign('last.html');
 });
+
+const var3 = document.getElementById('btn4');
+var3.addEventListener('click',() => {
+    results = 'Paid Selection';
+    localStorage.setItem('valueExtra',results);
+    window.location.assign('last.html');
+});
